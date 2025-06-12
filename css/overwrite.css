@@ -1,0 +1,50 @@
+.headercustom{
+    color: rgb(68, 85, 39) !important;
+}
+/* Primary button green customization */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(68, 85, 39);
+  --bs-btn-border-color: rgb(68, 85, 39);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(50, 65, 30);
+  --bs-btn-hover-border-color: rgb(45, 60, 25);
+  --bs-btn-focus-shadow-rgb: 68, 85, 39;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(45, 60, 25);
+  --bs-btn-active-border-color: rgb(40, 55, 20);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgb(68, 85, 39);
+  --bs-btn-disabled-border-color: rgb(68, 85, 39);
+}
+
+/* Green background box behind the profile image */
+.profile.profile-green {
+  background-color: rgb(68, 85, 39) !important;
+  background-image: none !important;
+  border-radius: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 2rem 1rem !important; /* top, right, bottom, left */
+}
+
+/* Profile image styling */
+.profile-img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem; /* soft image corners */
+  margin-bottom: -1.5rem; /* vertically balance image inside the green box */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .profile-img {
+    width: 100%;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+    Jacob Hunter | Scratch Page for IS 201 portfolio
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guitar Passion – Jacob Hunter (Scratch)</title>
+  <link rel="stylesheet" href="css/scratch.css" />
+
+  <!--  Google font   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body id="top">
+
+  <!-- ===== Quick nav back to the resume site ===== -->
+  <nav class="nav-bar">
+    <a href="index.html">← Portfolio Website</a>
+  </nav>
+
+  <!-- ===== Intro section ===== -->
+  <div id="intro" class="section intro">
+    <h1>This is my Guitar Obsession Page 🎸</h1>
+    <p>
+      Ever since I heard the opening chords of <em>Sunflower - Rex Orange County</em>, I’ve been hooked. Below are the players who keep me inspired,
+      the video that started it all, and even an interactive Tableau viz to help you build your first chords. (also a fun snake game)
+    </p>
+    <img class="img" src="assets/guitar.png"
+         alt="Playing guitar in the canyon" />
+  </div>
+<h1><a href="snakegame.html">Play my Snake Game 🎮</a></h1>
+
+  <!-- ===== Favourite guitarists ===== -->
+  <div id="guitarists" class="section guitarists">
+    <h2>My Top‑3 Guitar Influences</h2>
+
+    <!-- Ordered list WITH an unordered list nested inside -->
+    <ol>
+      <li>
+        <strong>John Mayer</strong>
+        <ul>
+          <li>Master of tasty bends &amp; phrasing</li>
+          <li>Floats between pop, blues, soul</li>
+          <li>Iconic thumb‑over bass funk chords</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Rex Orange County</strong>
+        <ul>
+          <li>Jazz‑flavored chord progressions</li>
+          <li>Loves stacking horns &amp; strings</li>
+          <li>Laid‑back groove that feels behind the beat</li>
+        </ul>
+      </li>
+      <li>
+        <strong>The Backseat Lovers</strong>
+        <ul>
+          <li>Huge soft‑loud dynamic drops</li>
+          <li>Creative tremolo &amp; delay textures</li>
+          <li>Interlocking two‑guitar riffs, especially live</li>
+        </ul>
+      </li>
+    </ol>
+
+    <!-- Tiny on‑page anchor back to the top -->
+    <p class="back-top"><a href="#top">Back to top ↑</a></p>
+  </div>
+
+  <!-- ===== Media section (video + Tableau) ===== -->
+  <div id="media" class="section media">
+    <h2>Video That Started It All</h2>
+
+    <!--  YouTube embed  -->
+    <div class="video-wrapper">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/Y48qCQVUWUo?si=cpxlqAWMXDf03An3"
+        title="Banes World – video that made me grab a guitar"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+    <h2 id="chords">Interactive Chord Builder</h2>
+    <!--  Live Tableau viz  -->
+    <div class='tableauPlaceholder' id='viz1749690522663' style='position: relative'>
+      <noscript><a href='#'><img ALT='Guitar Chords Classroom '
+      src='https://public.tableau.com/static/images/TS/TSRSWS24Q/1_rss.png' style='border:none' /></a></noscript>
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared&#47;TSRSWS24Q' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/TS/TSRSWS24Q/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+    <script>
+      const divElement = document.getElementById('viz1749690522663');
+      const vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width  = '890px';
+      vizElement.style.height = '827px';
+      const scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+   <!-- Tiny on‑page anchor back to the top -->
+    <p class="back-top"><a href="#top">Back to top ↑</a></p>
+  </div>
+  
+</body>
+</html>

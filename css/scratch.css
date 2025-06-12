@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Fira Sans', Arial, sans-serif;   
+  color: #222;                                
+  background: radial-gradient(circle at top left, #f0f4f7, #d9e0e3);
+  line-height: 1.6;
+}
+h1, h2 {
+  color: rgb(68, 85, 39);
+  font-weight: 700;
+  text-align: center;
+}
+a { color: #3b5; }
+a:hover{ text-decoration: underline; }
+.nav-bar{
+  background:#fff;
+  border-bottom:1px solid #ececec;
+  padding:.5rem 1rem;
+}
+.nav-bar a{
+  color:rgb(68,85,39);
+  font-weight:500;
+}
+.section{
+  max-width:900px;
+  margin:4rem auto;
+  padding:0 1rem;
+}
+.img{
+  width:100%;
+  max-width:600px;   
+  display:block;
+  margin:1.5rem auto 0; 
+  border-radius:10px;
+  box-shadow:0 4px 18px rgba(0,0,0,.15);
+}
+.guitarists ol{ padding-left:1.2rem; }
+.guitarists ul{ list-style-type:disc; padding-left:1.2rem; }
+.back-top{ text-align:right; font-size:.9rem; }
+.video-wrapper{ display:flex; justify-content:center; margin-bottom:2rem; }
+.tableauPlaceholder{ overflow-x:auto; }
